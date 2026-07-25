@@ -1,0 +1,10 @@
+# Lake build directory and packages
+.lake/
+.lake-packages/
+
+# OS/Editor temporary files
+.DS_Store
+.direnv/
+.vscode/
+*.swp
+*~
