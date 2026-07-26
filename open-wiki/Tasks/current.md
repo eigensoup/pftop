@@ -45,3 +45,10 @@ This document tracks the tasks currently in progress.
 - **Difficulty**: Easy
 - **Expected Lean Prerequisites**: Constructive poset proofs, typeclass parameter resolution.
 - **Expected Mathematical Prerequisites**: Monotonicity, partial orders, lattice joins and meets.
+
+### 7. P-Frames and Cozero Elements Formalization
+- **Description**: Formalize rather below (well-below), completely below, cozero elements, and P-frames (frames where every cozero element is complemented), and constructively prove top and bottom complementation.
+- **Status**: Completed (Formalized in `Math/Frames/PFrame.lean` and documented in `Docs/Definitions/PFrame.md`)
+- **Difficulty**: Medium
+- **Expected Lean Prerequisites**: Existential quantification, rational number properties, countable suprema, constructive proofs.
+- **Expected Mathematical Prerequisites**: Rather below relation, completely below relation, cozero elements, and P-spaces/P-frames.

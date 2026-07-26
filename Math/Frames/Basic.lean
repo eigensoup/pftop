@@ -64,6 +64,9 @@ class CompleteLattice (α : Type u) extends PartialOrder α, Min α, Max α wher
   le_sup_right : ∀ a b : α, b ≤ a ⊔ b
   sup_le : ∀ a b c : α, a ≤ c → b ≤ c → a ⊔ b ≤ c
 
+notation "⊤" => CompleteLattice.top
+notation "⊥" => CompleteLattice.bot
+
 /-- A frame is a complete lattice satisfying the infinite distributive law
 of meets over arbitrary joins. -/
 class Frame (α : Type u) extends CompleteLattice α where
